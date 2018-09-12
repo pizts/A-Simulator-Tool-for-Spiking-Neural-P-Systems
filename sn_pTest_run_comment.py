@@ -414,7 +414,7 @@ def process_tokens(tokens,parent, index):
 
         if (type(parent) == SNP_System):
             if (token.type == 'ASSIGN'):
-                if (prev_token.value == 'number'):
+                if (prev_token.value == 'neuronNum'):
                     index, result.Number = process_tokens(tokens, int(), index + 1);
 
                 # if the prev_token is the name of a membrane
