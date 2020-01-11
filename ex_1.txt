@@ -1,4 +1,4 @@
-# A example 
+# An example 
 
   snp= {
  	neuronNum = 3;
